@@ -8,7 +8,8 @@ Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linters + 
 - [x] Commit Lint - Conventional Commit
 - [x] Change Log - Conventional Change Log
 - [x] Vitest - Blazing Fast Vite-native Unit Test Framework
-- [x] Prettier - Code Formatter
+- [x] Prettier - Opinionated Code Formatter
 - [x] ESLint - Pluggable JavaScript Linter
 - [x] simple-git-hooks - DIY Git Hooks
 - [x] lint-staged - Lint Staged Files
+- [x] standard-version - Semantic Versioning
