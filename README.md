@@ -6,3 +6,4 @@ Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linter + F
 
 - [x] Vite Library Mode
 - [x] Commit Lint
+- [x] Vitest for Unit Tests
