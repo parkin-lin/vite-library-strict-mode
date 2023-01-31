@@ -1,9 +1,13 @@
 # Vite-Library-Strict-Mode
 
-Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linter + Formatter + Commit Lint + Git Hooks + ...
+Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linters + Formatters + Commit Lint + Git Hooks + ...
 
-## Features
+## Integrated Features
 
 - [x] Vite Library Mode
-- [x] Commit Lint
-- [x] Vitest for Unit Tests
+- [x] Commit Lint - Conventional Commit
+- [x] Change Log - Conventional Change Log
+- [x] Vitest - Blazing Fast Vite-native Unit Test Framework
+- [x] Prettier - Code Formatter
+- [] ESLint - Pluggable JavaScript Linter
+- [] Git Hooks

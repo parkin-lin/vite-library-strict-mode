@@ -36,4 +36,3 @@ document.querySelector('#app').innerHTML = `
 setupCounter(document.querySelector('#counter'))
 
 export { setupCounter as default, setupCounter }
-
