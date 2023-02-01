@@ -1,4 +1,4 @@
 {
   "*.{js,json}": ["prettier --write"],
-  "*.js?(x)": ["eslint"]
+  "*.ts?(x)": ["eslint", "prettier --parser=typescript --write"]
 }

@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: './src/index.js',
+      entry: './src/index.ts',
       formats: ['es'],
       fileName: 'yolo' /* DIY library name as you wish  */
     }
