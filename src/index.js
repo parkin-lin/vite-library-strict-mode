@@ -1,16 +1,6 @@
 import '../style.css'
 import javascriptLogo from '../javascript.svg'
-
-function setupCounter(element) {
-  let counter = 0
-  const setCounter = count => {
-    counter = count
-    element.innerHTML = `1Piece is $${counter}`
-  }
-
-  element.addEventListener('click', () => setCounter(++counter))
-  setCounter(0)
-}
+import { setupCounter } from '@/setup-counter'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -25,14 +15,9 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-        <p class="read-the-docs">
-      Click on the JS logo to learn more
+      Click on the Vite & JavaScript logos to learn more
     </p>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
-
-export { setupCounter as default, setupCounter }
