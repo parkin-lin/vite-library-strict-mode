@@ -1,6 +1,20 @@
 # Vite-Library-Strict-Mode
 
-Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linters + Formatters + Commit Lint + Git Hooks + ...
+<p align='center'>
+  <img src='./public/vite.svg' width='400'/>
+</p>
+
+<p align='center'>Vite-Library-Strict-Mode</p>
+
+<br>
+
+<p align='center'>
+  English | <a href='./README.zh-CN.md'>简体中文</a>
+</p>
+
+## Intro
+
+Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linter + Formatter + Commit Lint + Git Hooks + Semantic Versioning + ...
 
 ## Integrated Features
 
