@@ -1,4 +1,4 @@
 {
-  "pre-commit": "npm run unit && npx lint-staged",
+  "pre-commit": "npx vitest -w false && npx lint-staged",
   "commit-msg": "npx commitlint --edit ${1}"
 }
