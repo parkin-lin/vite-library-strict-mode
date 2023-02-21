@@ -30,7 +30,7 @@ Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linters + 
 
 ## Here We Go
 
-### Step 1: Use this template
+### Step1: Use this template
 
 Click the green "Use this template" button and choose to "create a new repository".
 
@@ -38,7 +38,7 @@ In this Github Template Repository, we use JavaScript as our default programming
 
 If you want to use TypeScript, you can checkout to the "ts" branch and use it as the main branch.
 
-### Step 2: Clone your repository to local
+### Step2: Clone your repository to local
 
 ```bash
 # clone to local
@@ -59,5 +59,5 @@ npm install
 ### Step3: DIY your config
 
 - Modify the config in package.json, such like `name`, `author` and so on.
-- Remove the LICENSE file. Generate your own LICENSE.
+- Remove the LICENSE file. Generate your own LICENSE. In this template, we use MIT LICENSE as default. If you want to use it too, you must replace the author with your name in the LICENSE file.
 - DIY other config as you wish.

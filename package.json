@@ -1,32 +1,29 @@
 {
-  "name": "vite-library-strict-mode",
-  "version": "0.1.0",
-  "private": true,
+  "name": "your-lib",
+  "author": "your-name",
+  "description": "the Intro of your lib",
   "license": "MIT",
-  "author": "J.K. Lover",
-  "type": "module",
-  "description": "Vite Template in Library Mode: JavaScript / TypeScript + Unit Tests + Linter + Formatter + Commit Lint + Git Hooks + ...",
+  "version": "0.0.0",
   "keywords": [
     "vite",
     "vitejs",
     "vitest",
     "template"
   ],
+  "private": true,
+  "type": "module",
   "files": [
-    "dist",
-    "index.d.ts"
+    "dist"
   ],
-  "main": "./dist/yolo.js",
-  "module": "./dist/yolo.js",
+  "main": "./dist/your-lib.js",
+  "module": "./dist/your-lib.js",
   "types": "./index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/yolo.js"
+    "import": "./dist/your-lib.js"
   },
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "test": "vitest",
-    "unit": "vitest -w=false",
     "build": "vite build",
     "commit": "npx cz",
     "format": "prettier . --write",
