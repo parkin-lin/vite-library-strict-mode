@@ -17,7 +17,6 @@
   ],
   "main": "./dist/your-lib.js",
   "module": "./dist/your-lib.js",
-  "types": "./index.d.ts",
   "exports": {
     "import": "./dist/your-lib.js"
   },
