@@ -59,5 +59,6 @@ npm install
 ### 步骤 3：DIY 你的配置
 
 - 修改 package.json 文件中的配置，`name` 和 `author` 等。
-- 删除 LICENSE 开源协议文件，生成你自己的的开源协议。在此模板中，我们默认使用 MIT 开源协议。倘若你也选择此协议，你需要在 LICENSE 文件中将作者替换为你的名字。
+- 删除 LICENSE 开源协议文件，DIY 你自己的的开源协议。在此模板中，我们默认使用 MIT 开源协议。倘若你也选择此协议，你需要在 LICENSE 文件中将作者替换为你的名字。
+- DIY 你的 README.md 文件，按需删除 README.zh-CN.md。
 - DIY 其他配置。

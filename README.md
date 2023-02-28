@@ -59,5 +59,6 @@ npm install
 ### Step3: DIY your config
 
 - Modify the config in package.json, such like `name`, `author` and so on.
-- Remove the LICENSE file. Generate your own LICENSE. In this template, we use MIT LICENSE as default. If you want to use it too, you must replace the author with your name in the LICENSE file.
+- Remove the LICENSE file. DIY your own LICENSE. In this template, we use MIT LICENSE as default. If you want to use it too, you must replace the author with your own name in the LICENSE file.
+- DIY your README.md & remove README.zh-CN.md as you wish.
 - DIY other config as you wish.

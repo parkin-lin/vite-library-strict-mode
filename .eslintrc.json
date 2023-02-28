@@ -2,12 +2,16 @@
   "extends": ["eslint:recommended", "prettier"],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
   },
   "plugins": ["prettier"],
   "root": true,
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es2022": true
   }
 }
